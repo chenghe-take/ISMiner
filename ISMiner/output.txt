@@ -1,0 +1,553 @@
+sequence     support of tail itemset     headSup
+
+{(IntellDtAnal+),(IntellDtAnal0)} {236,96} {0.001}
+
+{(JMLR0),(JMLR-)} {283,147} {0.001}
+
+{(JMLR0),(ICML-)} {283,207} {0.002}
+
+{(ICDT+),(PODS-)} {288,213} {0.001}
+
+{(PatternRecog0),(PatternRecog-)} {336,101} {0.001}
+
+{(JIntellInfSys+),(JIntellInfSys0)} {352,221} {0.002}
+
+{(PatternRecog-),(PatternRecog+)} {362,123} {0.001}
+
+{(PatternRecog-),(PatternRecog-)} {362,101} {0.001}
+
+{(JMLR+),(JMLR0)} {365,152} {0.001}
+
+{(JMLR+),(JMLR+)} {365,135} {0.001}
+
+{(JMLR+),(MachineLearning-)} {365,136} {0.001}
+
+{(JMLR+),(ICML-)} {365,203} {0.002}
+
+{(SIGKDDExp+),(SIGKDDExp0)} {377,195} {0.001}
+
+{(SIGKDDExp+),(KDD-)} {377,245} {0.002}
+
+{(SIGKDDExp+),(ICDM-)} {377,177} {0.001}
+
+{(ECAI-),(ECAI0)} {379,162} {0.001}
+
+{(ECAI-),(ECAI-)} {379,127} {0.001}
+
+{(DMKD+),(DMKD0)} {380,223} {0.001}
+
+{(IEEEIntSys+),(IEEEIntSys0)} {382,161} {0.001}
+
+{(BioInfo-),(BioInfo-)} {418,163} {0.001}
+
+{(MachineLearning-),(MachineLearning-)} {427,186} {0.001}
+
+{(MachineLearning-),(ICML-)} {427,248} {0.002}
+
+{(PODS-),(PODS-)} {439,291} {0.001}
+
+{(PODS0),(PODS-)} {441,337} {0.001}
+
+{(JIntellInfSys0),(JIntellInfSys0)} {444,189} {0.001}
+
+{(JIntellInfSys0),(JIntellInfSys-)} {444,205} {0.001}
+
+{(KnowlInfSyst+),(KnowlInfSyst0)} {454,263} {0.001}
+
+{(KnowlInfSyst+),(ICDM-)} {454,225} {0.001}
+
+{(PODS+),(PODS0)} {454,271} {0.001}
+
+{(PODS+),(PODS-)} {454,281} {0.001}
+
+{(PAKDD0),(PAKDD-)} {519,236} {0.001}
+
+{(ACMTransDBSys+),(PVLDB+)} {527,371} {0.001}
+
+{(ACMTransDBSys+),(ACMTransDBSys0)} {527,367} {0.001}
+
+{(BioInfo0),(BioInfo-)} {532,203} {0.002}
+
+{(BioInfo0),(BioInfo0)} {532,161} {0.001}
+
+{(ECAI+),(ECAI0)} {535,226} {0.002}
+
+{(ECAI+),(IJCAI-)} {535,166} {0.002}
+
+{(ECAI+),(AAAI+)} {535,222} {0.002}
+
+{(ECAI+),(ECAI-)} {535,138} {0.002}
+
+{(ECAI+),(IJCAI+)} {535,233} {0.003}
+
+{(ECAI+),(ECAI+)} {535,186} {0.002}
+
+{(ECAI+),(IJCAI0)} {535,176} {0.002}
+
+{(InfSys+),(InfSys0)} {556,325} {0.002}
+
+{(MachineLearning+),(ICML0)} {567,252} {0.002}
+
+{(MachineLearning+),(MachineLearning0)} {567,321} {0.003}
+
+{(MachineLearning+),(MachineLearning-)} {567,163} {0.001}
+
+{(MachineLearning+),(MachineLearning+)} {567,177} {0.002}
+
+{(MachineLearning+),(ICML-)} {567,236} {0.002}
+
+{(ECMLPKDD-),(ECMLPKDD-)} {579,217} {0.001}
+
+{(MachineLearning0),(ICML0)} {587,245} {0.002}
+
+{(MachineLearning0),(MachineLearning0)} {587,238} {0.002}
+
+{(MachineLearning0),(MachineLearning-)} {587,281} {0.002}
+
+{(MachineLearning0),(KDD-)} {587,195} {0.002}
+
+{(MachineLearning0),(ECMLPKDD-)} {587,186} {0.001}
+
+{(MachineLearning0),(ICML-)} {587,289} {0.002}
+
+{(ICML0,MachineLearning0),(MachineLearning-)} {134,123} {0.001}
+
+{(PatternRecog+),(PatternRecog+)} {588,175} {0.002}
+
+{(AAAI0),(AAAI-)} {599,222} {0.002}
+
+{(ECAI0),(ECAI0)} {612,250} {0.003}
+
+{(ECAI0),(IJCAI-)} {612,201} {0.002}
+
+{(ECAI0),(AAAI+)} {612,220} {0.002}
+
+{(ECAI0),(ECAI-)} {612,213} {0.002}
+
+{(ECAI0),(IJCAI+)} {612,276} {0.003}
+
+{(ECAI0),(ECAI+)} {612,180} {0.002}
+
+{(ECAI0),(IJCAI0)} {612,197} {0.002}
+
+{(SDM+),(KDD-)} {614,258} {0.001}
+
+{(SDM+),(ICDM-)} {614,260} {0.001}
+
+{(KDD-),(KDD-)} {618,328} {0.002}
+
+{(ICML-),(MachineLearning0)} {619,213} {0.001}
+
+{(ICML-),(ICML-)} {619,325} {0.002}
+
+{(DEXA-),(VLDBJ0)} {622,223} {0.002}
+
+{(DEXA-),(DEXA-)} {622,258} {0.002}
+
+{(SAC0),(SAC-)} {629,209} {0.001}
+
+{(SAC0),(PVLDB+)} {629,222} {0.002}
+
+{(InfSys0),(InfSys0)} {649,298} {0.001}
+
+{(InfSys0),(VLDBJ0)} {649,327} {0.002}
+
+{(InfSys0),(SIGMOD-)} {649,462} {0.002}
+
+{(DASFAA+),(PVLDB+)} {659,327} {0.002}
+
+{(DASFAA+),(DASFAA+)} {659,300} {0.002}
+
+{(DASFAA+),(DASFAA0)} {659,288} {0.002}
+
+{(DEXA+),(VLDBJ+)} {674,203} {0.002}
+
+{(DEXA+),(IEEETransKnowlDtEn-)} {674,291} {0.003}
+
+{(DEXA+),(EDBT+)} {674,187} {0.002}
+
+{(DEXA+),(VLDB-)} {674,355} {0.003}
+
+{(DEXA+),(VLDBJ0)} {674,190} {0.002}
+
+{(DEXA+),(EDBT0)} {674,207} {0.002}
+
+{(DEXA+),(PVLDB+)} {674,216} {0.002}
+
+{(DEXA+),(DataKnlEng+)} {674,191} {0.002}
+
+{(DEXA+),(CIKM-)} {674,191} {0.002}
+
+{(DEXA+),(DataKnlEng0)} {674,213} {0.002}
+
+{(DEXA+),(DEXA0)} {674,245} {0.002}
+
+{(DEXA+),(ICDE-)} {674,288} {0.003}
+
+{(DEXA+),(DEXA+)} {674,166} {0.002}
+
+{(DEXA+),(DASFAA+)} {674,194} {0.002}
+
+{(DEXA+),(SIGMOD-)} {674,274} {0.003}
+
+{(DEXA+),(ACMTransDBSys0)} {674,174} {0.002}
+
+{(DEXA+),(DEXA-)} {674,225} {0.002}
+
+{(VLDBJ+),(VLDBJ0)} {678,479} {0.002}
+
+{(DataKnlEng0),(DataKnlEng0)} {678,278} {0.002}
+
+{(ICDM0),(ICDM-)} {682,318} {0.002}
+
+{(DEXA0),(VLDBJ+)} {682,238} {0.002}
+
+{(DEXA0),(InfSys0)} {682,217} {0.002}
+
+{(DEXA0),(VLDB-)} {682,391} {0.003}
+
+{(DEXA0),(VLDBJ0)} {682,219} {0.002}
+
+{(DEXA0),(PVLDB+)} {682,222} {0.002}
+
+{(DEXA0),(DataKnlEng0)} {682,225} {0.002}
+
+{(DEXA0),(DEXA0)} {682,239} {0.002}
+
+{(DEXA0),(ICDE-)} {682,309} {0.002}
+
+{(DEXA0),(SIGMOD-)} {682,332} {0.002}
+
+{(DEXA0),(DEXA-)} {682,326} {0.002}
+
+{(DataKnlEng+),(IEEETransKnowlDtEn-)} {694,343} {0.002}
+
+{(DataKnlEng+),(VLDB-)} {694,420} {0.003}
+
+{(DataKnlEng+),(PVLDB+)} {694,251} {0.002}
+
+{(DataKnlEng+),(DataKnlEng+)} {694,247} {0.002}
+
+{(DataKnlEng+),(DataKnlEng0)} {694,364} {0.002}
+
+{(IJCAI-),(IJCAI-)} {698,249} {0.002}
+
+{(IJCAI-),(AAAI+)} {698,302} {0.002}
+
+{(IJCAI-),(IJCAI+)} {698,326} {0.003}
+
+{(IJCAI-),(IJCAI0)} {698,236} {0.002}
+
+{(EDBT+),(VLDB-)} {746,678} {0.003}
+
+{(EDBT+),(EDBT0)} {746,461} {0.002}
+
+{(EDBT+),(SIGMOD-)} {746,538} {0.002}
+
+{(PAKDD+),(PAKDD0)} {764,270} {0.002}
+
+{(PAKDD+),(KDD-)} {764,242} {0.002}
+
+{(PAKDD+),(ICDM0)} {764,251} {0.002}
+
+{(PAKDD+),(PAKDD+)} {764,253} {0.002}
+
+{(IJCAI0),(IJCAI-)} {769,369} {0.003}
+
+{(IJCAI0),(AAAI+)} {769,337} {0.003}
+
+{(IJCAI0),(IJCAI0)} {769,270} {0.002}
+
+{(ICML0),(ICML0)} {773,330} {0.003}
+
+{(ICML0),(AAAI+)} {773,298} {0.002}
+
+{(ICML0),(ICML+)} {773,321} {0.003}
+
+{(ICML0),(ECMLPKDD0)} {773,287} {0.002}
+
+{(ICML0),(MachineLearning0)} {773,277} {0.002}
+
+{(ICML0),(MachineLearning-)} {773,253} {0.002}
+
+{(ICML0),(KDD-)} {773,264} {0.002}
+
+{(ICML0),(ICML-)} {773,425} {0.003}
+
+{(ICML0),(KDD0)} {773,275} {0.002}
+
+{(SAC+),(SAC+)} {784,207} {0.002}
+
+{(SAC+),(IEEETransKnowlDtEn-)} {784,282} {0.002}
+
+{(SAC+),(SAC0)} {784,274} {0.002}
+
+{(EDBT0),(VLDB-)} {807,754} {0.003}
+
+{(EDBT0),(EDBT0)} {807,500} {0.002}
+
+{(EDBT0),(ICDE-)} {807,525} {0.002}
+
+{(EDBT0),(SIGMOD-)} {807,614} {0.003}
+
+{(AAAI+),(AAAI0)} {880,329} {0.002}
+
+{(AAAI+),(AAAI+)} {880,465} {0.003}
+
+{(KDD0),(KDD-)} {885,428} {0.002}
+
+{(KDD0),(KDD0)} {885,389} {0.002}
+
+{(ECMLPKDD0),(ECMLPKDD0)} {897,375} {0.002}
+
+{(ECMLPKDD0),(ECMLPKDD-)} {897,348} {0.002}
+
+{(IEEETransKnowlDtEn-),(IEEETransKnowlDtEn-)} {914,462} {0.002}
+
+{(IEEETransKnowlDtEn-),(VLDB-)} {914,635} {0.003}
+
+{(IEEETransKnowlDtEn-),(ICDE-)} {914,475} {0.002}
+
+{(IEEETransKnowlDtEn-),(SIGMOD-)} {914,542} {0.003}
+
+{(BMCBio+),(BioInfo-)} {943,258} {0.002}
+
+{(BMCBio+),(BMCBio+)} {943,414} {0.004}
+
+{(BioInfo+,BMCBio+),(BMCBio0)} {413,91} {0.001}
+
+{(BioInfo+,BMCBio+),(BioInfo-)} {413,178} {0.002}
+
+{(BioInfo+,BMCBio+),(BioInfo0)} {413,118} {0.001}
+
+{(BioInfo+,BMCBio+),(BMCBio+)} {413,262} {0.003}
+
+{(ICDE-),(VLDB-)} {972,713} {0.003}
+
+{(ICDE-),(ICDE-)} {972,564} {0.003}
+
+{(ICDE-),(SIGMOD-)} {972,650} {0.003}
+
+{(SIGMOD-),(VLDB-)} {989,785} {0.003}
+
+{(SIGMOD-),(SIGMOD-)} {989,697} {0.003}
+
+{(ECMLPKDD+),(ECMLPKDD0)} {1062,452} {0.004}
+
+{(ECMLPKDD+),(ICDM+)} {1062,369} {0.003}
+
+{(ECMLPKDD+),(ECMLPKDD+)} {1062,348} {0.003}
+
+{(ECMLPKDD+),(KDD-)} {1062,304} {0.003}
+
+{(ECMLPKDD+),(ICDM0)} {1062,293} {0.002}
+
+{(ECMLPKDD+),(KDD0)} {1062,328} {0.003}
+
+{(ICML+),(ICML0)} {1062,403} {0.004}
+
+{(ICML+),(AAAI+)} {1062,295} {0.003}
+
+{(ICML+),(ICML+)} {1062,414} {0.004}
+
+{(ICML+),(IJCAI+)} {1062,273} {0.003}
+
+{(ICML+),(ECMLPKDD0)} {1062,292} {0.003}
+
+{(ICML+),(ECMLPKDD+)} {1062,301} {0.003}
+
+{(ICML+),(ICML-)} {1062,352} {0.003}
+
+{(ICML+),(KDD0)} {1062,281} {0.003}
+
+{(CIKM0),(CIKM0)} {1066,476} {0.003}
+
+{(CIKM0),(ICDE0)} {1066,623} {0.004}
+
+{(CIKM0),(IEEETransKnowlDtEn-)} {1066,462} {0.003}
+
+{(CIKM0),(VLDB-)} {1066,672} {0.004}
+
+{(CIKM0),(CIKM-)} {1066,464} {0.003}
+
+{(CIKM0),(ICDE-)} {1066,491} {0.003}
+
+{(CIKM0),(SIGMOD-)} {1066,562} {0.003}
+
+{(CIKM0),(SIGMOD0)} {1066,488} {0.003}
+
+{(IJCAI+),(IJCAI-)} {1098,350} {0.003}
+
+{(IJCAI+),(AAAI+)} {1098,439} {0.003}
+
+{(IJCAI+),(IJCAI+)} {1098,464} {0.004}
+
+{(IJCAI+),(IJCAI0)} {1098,412} {0.003}
+
+{(ICDM+),(ICDM+)} {1129,428} {0.003}
+
+{(ICDM+),(ICDM0)} {1129,429} {0.003}
+
+{(SIGMOD0),(ICDE0)} {1168,688} {0.003}
+
+{(SIGMOD0),(VLDB-)} {1168,830} {0.004}
+
+{(SIGMOD0),(VLDB0)} {1168,615} {0.003}
+
+{(SIGMOD0),(ICDE-)} {1168,598} {0.003}
+
+{(SIGMOD0),(SIGMOD-)} {1168,786} {0.004}
+
+{(SIGMOD0),(SIGMOD0)} {1168,680} {0.003}
+
+{(SIGMOD0),(ICDE+)} {1168,890} {0.004}
+
+{(VLDB-),(VLDB-)} {1223,843} {0.003}
+
+{(VLDB0),(ICDE0)} {1232,723} {0.004}
+
+{(VLDB0),(IEEETransKnowlDtEn0)} {1232,559} {0.003}
+
+{(VLDB0),(SIGMOD+)} {1232,656} {0.004}
+
+{(VLDB0),(VLDB-)} {1232,927} {0.005}
+
+{(VLDB0),(VLDB0)} {1232,662} {0.004}
+
+{(VLDB0),(ICDE-)} {1232,593} {0.003}
+
+{(VLDB0),(SIGMOD-)} {1232,708} {0.004}
+
+{(VLDB0),(SIGMOD0)} {1232,632} {0.003}
+
+{(VLDB0),(ICDE+)} {1232,907} {0.005}
+
+{(ICDE+,VLDB0),(PVLDB+)} {376,311} {0.001}
+
+{(BioInfo+),(BioInfo+)} {1255,438} {0.005}
+
+{(BioInfo+),(BioInfo-)} {1255,266} {0.003}
+
+{(BioInfo+),(BioInfo0)} {1255,279} {0.003}
+
+{(BioInfo+),(BMCBio+)} {1255,455} {0.005}
+
+{(IEEETransKnowlDtEn0),(ICDE0)} {1284,665} {0.004}
+
+{(IEEETransKnowlDtEn0),(IEEETransKnowlDtEn+)} {1284,575} {0.003}
+
+{(IEEETransKnowlDtEn0),(IEEETransKnowlDtEn0)} {1284,655} {0.004}
+
+{(IEEETransKnowlDtEn0),(IEEETransKnowlDtEn-)} {1284,637} {0.004}
+
+{(IEEETransKnowlDtEn0),(VLDB-)} {1284,689} {0.004}
+
+{(IEEETransKnowlDtEn0),(VLDB0)} {1284,542} {0.003}
+
+{(IEEETransKnowlDtEn0),(ICDE-)} {1284,567} {0.003}
+
+{(IEEETransKnowlDtEn0),(SIGMOD-)} {1284,620} {0.003}
+
+{(IEEETransKnowlDtEn0),(SIGMOD0)} {1284,538} {0.003}
+
+{(IEEETransKnowlDtEn0),(ICDE+)} {1284,800} {0.004}
+
+{(KDD+),(ICDE0)} {1334,506} {0.003}
+
+{(KDD+),(IEEETransKnowlDtEn+)} {1334,469} {0.003}
+
+{(KDD+),(IEEETransKnowlDtEn0)} {1334,447} {0.003}
+
+{(KDD+),(VLDB-)} {1334,548} {0.004}
+
+{(KDD+),(KDD+)} {1334,524} {0.004}
+
+{(KDD+),(SIGMOD-)} {1334,477} {0.003}
+
+{(KDD+),(KDD0)} {1334,497} {0.003}
+
+{(KDD+),(CIKM+)} {1334,526} {0.004}
+
+{(VLDB+),(ICDE0)} {1364,786} {0.005}
+
+{(VLDB+),(IEEETransKnowlDtEn+)} {1364,608} {0.004}
+
+{(VLDB+),(IEEETransKnowlDtEn0)} {1364,552} {0.003}
+
+{(VLDB+),(SIGMOD+)} {1364,741} {0.004}
+
+{(VLDB+),(VLDB-)} {1364,861} {0.005}
+
+{(VLDB+),(VLDB0)} {1364,768} {0.004}
+
+{(VLDB+),(ICDE-)} {1364,614} {0.004}
+
+{(VLDB+),(SIGMOD-)} {1364,724} {0.004}
+
+{(VLDB+),(SIGMOD0)} {1364,690} {0.004}
+
+{(VLDB+),(ICDE+)} {1364,1003} {0.006}
+
+{(VLDB+),(VLDB+)} {1364,641} {0.004}
+
+{(VLDB+,SIGMOD+),(VLDB-)} {481,606} {0.003}
+
+{(VLDB+,SIGMOD+),(VLDBJ0)} {481,327} {0.002}
+
+{(VLDB+,SIGMOD+),(PVLDB+)} {481,342} {0.002}
+
+{(VLDB+,SIGMOD+),(PODS-)} {481,226} {0.001}
+
+{(VLDB+,SIGMOD+),(SIGMOD-)} {481,494} {0.002}
+
+{(ICDE+,VLDB+),(VLDB-)} {495,644} {0.003}
+
+{(ICDE+,VLDB+),(PVLDB+)} {495,353} {0.002}
+
+{(ICDE+,VLDB+),(SIGMOD-)} {495,531} {0.002}
+
+{(ICDE0),(ICDE0)} {1378,778} {0.004}
+
+{(ICDE0),(VLDB-)} {1378,827} {0.004}
+
+{(ICDE0),(ICDE-)} {1378,723} {0.004}
+
+{(ICDE0),(SIGMOD-)} {1378,712} {0.004}
+
+{(ICDE0),(ICDE+)} {1378,877} {0.004}
+
+{(IEEETransKnowlDtEn+),(ICDE0)} {1384,678} {0.004}
+
+{(IEEETransKnowlDtEn+),(IEEETransKnowlDtEn+)} {1384,663} {0.004}
+
+{(IEEETransKnowlDtEn+),(IEEETransKnowlDtEn0)} {1384,788} {0.004}
+
+{(IEEETransKnowlDtEn+),(VLDB-)} {1384,700} {0.004}
+
+{(SIGMOD+),(ICDE0)} {1503,764} {0.004}
+
+{(SIGMOD+),(SIGMOD+)} {1503,736} {0.004}
+
+{(SIGMOD+),(VLDB-)} {1503,871} {0.004}
+
+{(SIGMOD+),(SIGMOD-)} {1503,732} {0.004}
+
+{(SIGMOD+),(SIGMOD0)} {1503,743} {0.004}
+
+{(SIGMOD+),(ICDE+)} {1503,996} {0.005}
+
+{(ICDE+,SIGMOD+),(PVLDB+)} {611,398} {0.002}
+
+{(CIKM+),(ICDE0)} {1522,610} {0.004}
+
+{(CIKM+),(VLDB-)} {1522,666} {0.004}
+
+{(CIKM+),(ICDE+)} {1522,772} {0.004}
+
+{(CIKM+),(CIKM+)} {1522,668} {0.004}
+
+{(ICDE+),(ICDE0)} {1909,942} {0.005}
+
+{(ICDE+),(VLDB-)} {1909,926} {0.005}
+
+{(ICDE+),(ICDE+)} {1909,1058} {0.005}
