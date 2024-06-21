@@ -9,7 +9,7 @@ public class MainISMiner {
 		// The input directory containing a dynamic attributed graph
 //		String inputDirectory = fileToPath("DB_TSEQMINER") + File.separator;
 //		String inputDirectory = "/Users/me/Documents/DYNAMIC_GRAPH_DATASETS_REDUCED/TSEQMINER_datasets/GrayValue4000/Graph03/Interval120/";
-		String inputDirectory = "/Users/me/Desktop/Data/DBLP/";
+		String inputDirectory = "Data/DBLP/";
 
 
 		// The output file path
