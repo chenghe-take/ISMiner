@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URL;
 
-public class MainTestISMiner {
+public class MainISMiner {
 
 	public static void main(String [] arg) throws IOException, ClassNotFoundException{
 
