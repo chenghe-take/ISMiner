@@ -27,7 +27,7 @@ Alternatively, you can use the **Run** button in the IDE toolbar after opening `
 
 Before running the program, you can configure the following parameters to customize the mining process:
 
-- **discretizationThreshold**: The discretization threshold is an anti-interference coefficient to set trends. For example, if the value is 0.1, it means when (next_value - cur_value) >= 0.1, the trend is '+'. When (next_value - cur_value) <= -0.1, the trend is '-'. Otherwise the trend is '='.
+- **discretizationThreshold**: The discretization threshold is an anti-interference coefficient to set trends. For example, if the value is 0.1, it means when (next_value - cur_value) >= 0.1, the trend is '+'. When (next_value - cur_value) <= -0.1, the trend is '-'. Otherwise, the trend is '='.
   
 - **minInitSup**: The threshold for the support of the first item to filter infrequent patterns in advance.
 
