@@ -1,6 +1,6 @@
 # ISMiner
 
-This repository implements algorithms for mining interesting sequences in dynamic attributed graphs. The program is designed to calculate the frequency of subgraphs within graphs, and can be run with different interestingness measures.
+This repository implements algorithms for mining interesting sequences in dynamic attributed graphs. The program is designed to calculate the frequency of subgraphs within graphs and can be run with different interestingness measures.
 
 ## Requirements
 
@@ -21,7 +21,7 @@ In IntelliJ IDEA:
 1. Right-click on the `MainISMiner.java` file.
 2. Select **Run 'MainISMiner'** from the context menu.
 
-Alternatively, you can use the **Run** button in the IDE toolbar after opening `MainTest.java`.
+Alternatively, you can use the **Run** button in the IDE toolbar after opening `MainISMiner.java`.
 
 ### Step 3: Configure the Parameters
 
@@ -29,7 +29,7 @@ Before running the program, you can configure the following parameters to custom
 
 - **discretizationThreshold**: The discretization threshold is to set trends. For example, if the value is 0.1, it means when (next_value - cur_value) >= 0.1, the trend is '+' and when (next_value - cur_value) <= -2, the trend is '-'. Otherwise the trend is '0'.
   
-- **minInitSup**: The support of the first item in sequence should >= minInitSup to fliter infrequent patterns in advance.
+- **minInitSup**: The threshold for the support of the first item to filter infrequent patterns in advance.
 
 - **minHeadSup**: A frequent sequence should satisfy the support threshold.
 
@@ -38,11 +38,11 @@ Before running the program, you can configure the following parameters to custom
 - **exhibit_supporting_points**: If it is true, then output extra supporting points for frequent graph sequences.
 
 ### Details
-After Run the `MainISMiner.java`, users can choose whether run the `GraphToDot.java` to obtain the GraphViz (DOT) Files. GraphViz is a graph description language that uses the “DOT format” to define and represent graphs for analysis and visualization. These files describe graphs using a simple text-based syntax, making them easy to create and edit.
+After running the `MainISMiner.java`, users can choose whether to run the `GraphToDot.java` to obtain the GraphViz (DOT) Files. GraphViz is a graph description language that uses the “DOT format” to define and represent graphs for analysis and visualization. These files describe graphs using a simple text-based syntax, making them easy to create and edit.
 
 ### Example Command
 
-To run the program with a minimum head support and an all-confidence, the command would look like:
+To run the program with minimum head support and an all-confidence, the command would look like:
 
 ```bash
 float discretizationThreshold = 0.1f;
