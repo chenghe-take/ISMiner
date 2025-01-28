@@ -50,7 +50,7 @@ public class AlgoISMiner {
 
 	/** indicate whether to interpret sequence */
 	private boolean INTERPRET_RESULT = true;
-//    private static boolean EXHIBIT_SUPPORTING_POINTS = ParametersSetting.EXHIBIT_SUPPORTING_POINTS;
+    private static boolean EXHIBIT_SUPPORTING_POINTS = false;
 
 	/** mapping from vertex index to real entity name */
 	private Map<Integer, String> vertexMapName;
@@ -94,7 +94,7 @@ public class AlgoISMiner {
 	 * @throws IOException if an error reading or writing files
 	 */
 	public void runAlgorithm(String inputDirectory, String outputPath, float discretizationThreshold, float minInitSup,
-			float minHeadSup, float minAll, int attributeCount) throws IOException {
+			float minHeadSup, float minAll, int attributeCount, boolean exhibit_supporting_points) throws IOException {
 
 		// Save parameters
 		ParametersSetting.INCRE_THRESHOLD = discretizationThreshold;
@@ -102,6 +102,7 @@ public class AlgoISMiner {
 		ParametersSetting.MIN_HEAD_SUP = minHeadSup;
 		ParametersSetting.MIN_AllConf = minAll;
 		ParametersSetting.TOTAL_NUM_ATTR = attributeCount;
+		ParametersSetting.EXHIBIT_SUPPORTING_POINTS = exhibit_supporting_points;
 
 		ParametersSetting.EDGE_FILE_PATH = inputDirectory + "graph.txt";
 		ParametersSetting.ATTRI_MAPPING_PATH = inputDirectory + "attributes_mapping.txt";
@@ -718,14 +719,15 @@ public class AlgoISMiner {
 			for (STPSet stpSet : prefixSTPSet) {
 				for (Integer timestamp : stpSet.getTimestamps()) {
 					for (Integer vId : stpSet.getVIdSet4Timestamp(timestamp)) {
-						sb.append("(").append(timestamp).append(",").append(vertexMapName.get(vId)).append(") ");
+//						sb.append("(").append(timestamp).append(",").append(vertexMapName.get(vId)).append(") ");
+						sb.append("(").append(timestamp).append(",").append(vId).append(") ");
 					}
 				}
 				sb.append("\n");
 			}
 			for (Integer timestamp : tailSTPSet.getTimestamps()) {
 				for (Integer vId : tailSTPSet.getVIdSet4Timestamp(timestamp)) {
-					sb.append("(").append(timestamp).append(",").append(vertexMapName.get(vId)).append(") ");
+					sb.append("(").append(timestamp).append(",").append(vId).append(") ");
 				}
 			}
 			sb.append("\n");
