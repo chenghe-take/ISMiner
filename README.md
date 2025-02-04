@@ -1,6 +1,6 @@
 # ISMiner
 
-This repository implements algorithms for mining interesting sequences in dynamic attributed graphs. The program is designed to calculate the frequency of subgraphs within graphs and can be run with different interestingness measures.
+This repository implements algorithms for mining interesting sequences in dynamic attributed graphs. The program is designed to calculate the frequency of graph sequences and can be run with different interestingness measures.
 
 ## Requirements
 
